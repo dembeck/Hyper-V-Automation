@@ -17,7 +17,7 @@ Get-WindowsOptionalFeature -Online -FeatureName *hyper-v* | select DisplayName, 
 #Install-WindowsFeature -Name RSAT-Hyper-V-Tools
 
 # Install the Hyper-V hypervisor and all tools (method #1)
-#Install-WindowsFeature -Name Hyper-V -IncludeManagementTools
+Install-WindowsFeature -Name Hyper-V -IncludeManagementTools
 
 # Install the Hyper-V hypervisor and all tools (method #2)
-Install-WindowsFeature -Name Hyper-V, RSAT-Hyper-V-Tools
+#Install-WindowsFeature -Name Hyper-V, RSAT-Hyper-V-Tools
