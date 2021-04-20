@@ -8,16 +8,6 @@ For Hyper-V Generation 2 VMs only.
 
 
 
-## How to install
-
-To download all scripts into your `$env:temp` folder:
-
-```powershell
-iex (iwr 'bit.ly/h-v-a')
-```
-
-
-
 ## Command summary
   - For Windows VMs
     - [New-WindowsUnattendFile](#New-WindowsUnattendFile)
